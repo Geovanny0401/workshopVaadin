@@ -25,7 +25,7 @@ import com.vaadin.flow.theme.lumo.Lumo;
 @Viewport("width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes")
 @Route(value = "")
 @PWA(name = "Project Base for Vaadin Flow with Spring", shortName = "Project Base")
-@Theme(value = Lumo.class, variant = Lumo.DARK)
+@Theme(value = Lumo.class, variant = Lumo.LIGHT)
 public class MainView extends Div implements RouterLayout, PageConfigurator {
 
     public MainView() {
